@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.mind-map {
+    display: inline-block;
+    text-align: left;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px;
+}
+
+.node {
+    list-style: none;
+}
+
+.node-title {
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.child-nodes {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 20px;
+}
+
+.node .child-nodes {
+    display: none;
+}
+
+.node:hover .child-nodes {
+    display: block;
+}
