@@ -6,13 +6,16 @@ body {
 .mind-map {
     display: inline-block;
     text-align: left;
-    border: 2px solid #333;
     padding: 20px;
     margin: 20px;
 }
 
 .node {
     list-style: none;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .node-title {
@@ -22,16 +25,29 @@ body {
     padding: 0;
 }
 
+.node-description {
+    margin: 0;
+    padding: 0;
+}
+
 .child-nodes {
     list-style: none;
     padding: 0;
-    margin: 10px 0 0 20px;
+    margin: 10px 0;
 }
 
-.node .child-nodes {
-    display: none;
+.pollution {
+    background-color: #FF5733; /* Vermelho */
 }
 
-.node:hover .child-nodes {
-    display: block;
+.chemicals {
+    background-color: #339CFF; /* Azul */
+}
+
+.waste {
+    background-color: #33FF57; /* Verde */
+}
+
+.plastics {
+    background-color: #FFD633; /* Amarelo */
 }
